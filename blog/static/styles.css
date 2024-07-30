@@ -1,0 +1,48 @@
+.custom-container {
+    max-width: 1450px;
+}
+
+.post-container {
+    max-width: 1350px;
+}
+
+.post-content {
+    border: 1px solid black;
+    padding: 23px;
+    margin-bottom: 10px;
+}
+
+.article-metadata {
+    text-align: left;
+}
+
+.post-author {
+    float: left;
+    color: #000000;
+}
+
+.post-date {
+    float: right;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.image {
+    width:auto;
+    height:30px
+}
+
+.card {
+    background-color: #bdd9f3;;
+}
+
+.btn-color {
+    /* Define your button color here if needed */
+    background-color: #acb4bd; /* Example color */
+    color: white;
+}
+
+
+
