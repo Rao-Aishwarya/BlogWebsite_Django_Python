@@ -1,4 +1,4 @@
-**Django Application setup**
+### Django Application setup
 
 ## Prerequisites
 
