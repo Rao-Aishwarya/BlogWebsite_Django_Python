@@ -1,5 +1,12 @@
-# Django Application setup
+# Django Application
 
+This a Django blog application which allows users to read, create and delete blog posts. This application uses the Django framework to handle the backend logic, database intercations and template rendering. 
+The features of this app include:
+1. User authentication - Sign up, Login, Logout
+2. Create, Read and Delete operations on blog posts
+3. Search blogs using author name
+
+# Setup
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
