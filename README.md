@@ -27,6 +27,7 @@ pip install -r requirements.txt
 ## Set Up the Database
 ### Apply databse migrations
 ```
+python manage.py makemigrations
 python manage.py migrate
 ```
 
