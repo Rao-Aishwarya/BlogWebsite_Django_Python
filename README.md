@@ -6,7 +6,7 @@ The features of this app include:
 2. Create, Read and Delete operations on blog posts
 3. Search blogs using author name
 
-### User registration snf login
+### User registration and login
 The user is directed to the Sign up page as soon as the application is run, to create an account. The user is redirected to the login page, logs in, and is redirected to the home page. 
 
 ### Create a post
