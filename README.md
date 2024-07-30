@@ -7,19 +7,20 @@ The features of this app include:
 3. Search blogs using author name
 
 ### User registration and login
-The user is directed to the Sign up page as soon as the application is run, to create an account. The user is redirected to the login page, logs in, and is redirected to the home page. 
+1. The user is directed to the Sign up page as soon as the application is run, to create an account.
+2. The user is redirected to the login page, logs in, and is redirected to the home page. 
 
 ### Create a post
-The authenticated user navigates to the "New Post" page.
-Fills out the post creation form and submits it.
-The post is saved to the database, and the user is redirected to the home page or the post detail page. 
+1. The authenticated user navigates to the "New Post" page.
+2. Fills out the post creation form and submits it.
+3. The post is saved to the database, and the user is redirected to the home page or the post detail page. 
 
 ### Viewing posts
-Any user can visit the home page to see a list of all posts.
-There is also search functionality - search based on author name.
+1. Any user can visit the home page to see a list of all posts.
+2. There is also search functionality - search based on author name.
 
 ### Deleting posts
-A user can only delete the posts authored by him/her. 
+1. A user can only delete the posts authored by him/her. 
 
 # Setup
 ## Prerequisites
