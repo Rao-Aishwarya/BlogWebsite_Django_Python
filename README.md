@@ -1,3 +1,7 @@
-``` Django ```
+**Django Application setup**
 
-This is Blog application made using Django. It has functionality such as 
+##Prerequisites
+
+Before you begin, ensure you have the following installed:
+-->Python (3.6 or later)
+-->pip (Python package installer)
