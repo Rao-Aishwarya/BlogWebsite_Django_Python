@@ -18,10 +18,10 @@ cd your-repository
 python3 -m venv venv
 source venv/bin/activate
 ```
-2. On windows
+
+## Install the requirements.txt
 ```
-python -m venv venv
-venv\Scripts\activate
+pip install -r requirements.txt
 ```
 
 ## Set Up the Database
@@ -47,4 +47,9 @@ Open your web browser and go to:
 
 1. Home Page: http://127.0.0.1:8000/
 2. Admin Interface: http://127.0.0.1:8000/admin (use the superuser credentials you created)
+
+You can also specify IP address and port number (if required) using the following command
+```
+python manage.py runserver <ip-address>:<port number>
+```
 
