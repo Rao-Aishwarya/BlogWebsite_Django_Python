@@ -1,7 +1,7 @@
 **Django Application setup**
 
-##Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
-'-' Python (3.6 or later)
-'-' pip (Python package installer)
+1. Python (3.6 or later)
+2. pip (Python package installer)
