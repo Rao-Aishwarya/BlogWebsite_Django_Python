@@ -9,6 +9,11 @@
             <div class="card">
                 <form class="card-body form-custom p-lg-5" method="post">
                     {% csrf_token %}
+                    if User.objects.filter(username=name).exists():
+                        return render(request, 'blog/signup.html', {
+                            'error_message': 'Username already exists'
+                        })
+        
                     <div class="text-center">
                         <h2 class="form-title">Create An Account</h2>
                     </div>
