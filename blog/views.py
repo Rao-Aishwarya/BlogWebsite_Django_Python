@@ -17,6 +17,12 @@ def signup(request):
         name = request.POST.get('uname')
         email= request.POST.get('uemail')
         password = request.POST.get('upassword')
+
+        if User.objects.filter(username=name).exists():
+            return render(request, 'blog/signup.html', {
+                'error_message': 'Username already exists'
+            })
+        
         newUser = User.objects.create_user(username=name, email=email, password=password)
         newUser.save()
         return redirect('/loginn')
