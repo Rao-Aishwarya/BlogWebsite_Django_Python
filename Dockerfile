@@ -10,10 +10,14 @@ WORKDIR /app
 
 # Install dependencies
 COPY requirements.txt /app/
+RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application code
 COPY . /app/
+
+# Ensure the SQLite database is copied
+COPY db.sqlite3 /app/
 
 # Expose the port the app runs on
 EXPOSE 8000
