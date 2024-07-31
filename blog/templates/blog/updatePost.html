@@ -1,0 +1,36 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'styles.css' %}">
+<div class="container custom-container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+        <!-- Navigation code here -->
+    </nav>
+    <br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <div class="card-body cardbody-color p-lg-5">
+                        <h2 class="text-center">Update Post</h2>
+                        <form method="post">
+                            {% csrf_token %}
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="title" value="{{ post.title }}" placeholder="Title" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" name="content" placeholder="Content" required>{{ post.content }}</textarea>
+                            </div>
+                            <input type="hidden" name="post_id" value="{{ post.id }}">
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary px-5 mb-5 w-100">Update Post</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
