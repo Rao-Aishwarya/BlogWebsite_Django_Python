@@ -1,11 +1,10 @@
-# Django Application
-
 This a Django blog application which allows users to read, create and delete blog posts. This application uses the Django framework to handle the backend logic, database interations and template rendering. 
 The features of this app include:
 1. User authentication - Sign up, Login, Logout
-2. Create, Read and Delete operations on blog posts
+2. CRUD operations on blog posts
 3. Search blogs using author name
 
+# Django Application setup
 ### User registration and login
 1. The user is directed to the Sign up page as soon as the application is run, to create an account.
 2. The user is redirected to the login page, logs in, and is redirected to the home page. 
@@ -18,6 +17,9 @@ The features of this app include:
 ### Viewing posts
 1. Any user can visit the home page to see a list of all posts.
 2. There is also search functionality - search based on author name.
+
+### Update posts
+1. User can update the posts auhtored by him/her.
 
 ### Deleting posts
 1. A user can only delete the posts authored by him/her. 
@@ -32,7 +34,7 @@ Before you begin, ensure you have the following installed:
 ## Clone the repository
 ```
 git clone https://github.com/yourusername/your-repository.git
-cd your-repository
+cd your-repository-path
 ```
 ## Setup Virtual Environment
 ### Create and activate a virtual environment
@@ -76,4 +78,25 @@ You can also specify IP address and port number (if required) using the followin
 ```
 python manage.py runserver <ip-address>:<port number>
 ```
+
+
+# Running the application using a Docker image
+This guide will help you deploy the Django application using Docker and run it on port 8009.
+
+## Prerequisites
+- Docker installed on your system
+- Docker Compose (optional but recommended)
+
+## Clone the repository
+```
+git clone https://github.com/yourusername/your-repository.git
+cd your-repository-path
+```
+
+## Build and run the docker image
+```
+docker build -t django-blog .
+docker run -d -p 8009:8009 django-blog
+```
+
 
