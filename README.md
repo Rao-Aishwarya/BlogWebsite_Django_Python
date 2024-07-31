@@ -1,4 +1,4 @@
-This a Django blog application which allows users to read, create and delete blog posts. This application uses the Django framework to handle the backend logic, database interations and template rendering. 
+This is a Django blog application which allows users to read, create and delete blog posts. This application uses the Django framework to handle the backend logic, database interations and template rendering. 
 The features of this app include:
 1. User authentication - Sign up, Login, Logout
 2. CRUD operations on blog posts
