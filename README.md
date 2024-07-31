@@ -4,7 +4,6 @@ The features of this app include:
 2. CRUD operations on blog posts
 3. Search blogs using author name
 
-# Django Application setup
 ### User registration and login
 1. The user is directed to the Sign up page as soon as the application is run, to create an account.
 2. The user is redirected to the login page, logs in, and is redirected to the home page. 
@@ -24,7 +23,7 @@ The features of this app include:
 ### Deleting posts
 1. A user can only delete the posts authored by him/her. 
 
-# Setup
+# Django Application setup
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
